@@ -1,0 +1,22 @@
+a) Crie uma matriz 3x3, onde a primeira coluna terá o nome de um produto, a segunda
+coluna a marca e a terceira o valor. Esses dados não precisam ser informados pelo
+usuário, essas informações podem ser pré-definidas como no exemplo de contatos,
+assim que desenvolver a matriz, exiba os dados utilizando laços de repetição.
+b) Implemente uma matriz 3x2, na primeira coluna serão armazenados nomes de
+cursos, já na segunda coluna os valores. Ao término liste os dados informados para
+armazenar na matriz.
+c) Crie uma matriz 4x4 e peça para o usuário informar 16 números. Quando informados
+os 16 números exiba cada um deles, além da soma e a média dos valores.
+d) Crie um sistema para uma agenda de contatos, esse sistema terá um menu com as
+seguintes funcionalidades:
+1) Cadastrar contato
+2) Selecionar contatos
+3) Alterar contato
+4) Remover contato
+5) Sair do sistema
+e) Elabore um caixa de mercado. Haverá uma lista de produtos que você irá criar, cada
+produto terá um nome e um valor. Inicialmente o caixa poderá selecionar um código
+que representa um produto e a quantidade comprada pelo cliente, enquanto não
+digitar o número zero, essa ação será repetida inúmeras vezes. Quando digitado o
+número zero exiba cada produto comprado, além de sua quantidade, valor unitário,
+valor total daquele produto (quantidade * valor unitário) e por fim o total da compra.

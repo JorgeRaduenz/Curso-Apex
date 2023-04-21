@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExercicioCSS001</title>
+</head>
+<style>
+   .container {
+            width: 100%;
+            height: 100px;
+            margin: 20px 0px;
+            display: flex;
+        }
+
+        .quadrado-menor1 {
+            width: 50%;
+            height: 100px;
+            margin-right: 10px;
+        }
+
+        .quadrado-menor2 {
+            width: 50%;
+            height: 100px;
+            margin-left: 10px;
+        }
+
+        .vermelho {
+            background-color: red;
+        }
+
+        .verde {
+            background-color: yellowgreen;
+        }
+
+        .azul {
+            background-color: aqua;
+        }
+</style>
+
+<body>
+    <div class="container vermelho"></div>
+    <div class="container verde"></div>
+    <div class="container">
+        <div class="quadrado-menor1 azul"></div>
+        <div class="quadrado-menor2 azul"></div>
+    </div>
+</body>
+
+</html>

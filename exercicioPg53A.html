@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExercicioPg53A</title>
+    <script>
+        //a) Crie um formulário, onde o usuário irá informar dois valores e uma operação
+        //de soma, subtração, multiplicação ou divisão.
+        //Haverá as seguintes funções:
+        //1) Ação - Responsável por obter os dados informados, selecionar um cálculo e exibir
+        //2) Soma - Haverá dois parâmetros que retornará a soma dos valores
+        //3) Subtração - Haverá dois parâmetros que retornará a subtração dos valores
+        //4) Multiplicação - Haverá dois parâmetros que retornará a multiplicação dos valores
+        //5) Divisão - Haverá dois parâmetros que retornará a divisão dos valores
+        function acao() {
+
+            let valor1 = parseInt(document.getElementById("valor1").value);
+            let valor2 = parseInt(document.getElementById("valor2").value);
+            let operacao = document.getElementById("operacao").value;
+
+            let resultado = 0;
+            switch (operacao) {
+                case "+":
+                    resultado = soma(valor1, valor2);
+                    break;
+                case "-":
+                    resultado = subtração(valor1, valor2);
+                    break;
+                case "*":
+                    resultado = multiplicação(valor1, valor2);
+                    break;
+                case "/":
+                    resultado = divisão(valor1, valor2);
+                    break;
+            }
+
+            alert("Resultado:" + resultado);
+
+            function soma(valor1, valor2) {
+                return valor1 + valor2;
+            }
+            function subtração(valor1, valor2) {
+                return valor1 - valor2;
+            }
+            function multiplicação(valor1, valor2) {
+                return valor1 * valor2;
+            }
+            function divisão(valor1, valor2) {
+                return valor1 / valor2;
+            }
+
+        }
+    </script>
+</head>
+
+
+<body>
+    <!--Formulário -->
+    <form>
+        <input type="text" placeholder="primeira valor" id="valor1">
+        <input type="text" placeholder="segunda valor" id="valor2">
+        <select id="operacao">
+            <option value="+" label="Soma"></option>
+            <option value="-" label="Subtração"></option>
+            <option value="*" label="Multiplicação"></option>
+            <option value="/" label="Divisão"></option>
+            <select>
+                <input type="button" value="Calcular" onclick="acao()">
+    </form>
+</body>
+
+</html>

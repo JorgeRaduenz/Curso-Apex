@@ -1,0 +1,23 @@
+a) Crie um vetor contendo cinco cidades, em seguida exiba seus valores.
+b) Desenvolva um sistema que o usuário informa cinco números através do comando
+prompt, em seguida exiba os valores informados e mostre a soma desses valores.
+c) Crie um laço que peça nomes, poderão ser armazenados vários nomes, não há uma
+quantidade mínima nem máxima. Quando informada a palavra sair, exiba todos os
+nomes e informe a quantidade de nomes cadastrados.
+d) O usuário informa cinco números, em seguida exiba na ordem contrário que foram
+informados.
+e) Faça com que sejam pedidos e armazenados cinco números. Informe quantos
+números dez foram informados pelo usuário.
+f) Peça sete números, em seguida exiba a soma desses valores, a média e quantos
+números são maiores ou iguais a média.
+g) Haverá um cardápio contendo dez itens (você define o nome e o valor de cada item),
+cada item terá um código de 1 a 10, além do número 11 que finaliza o sistema.
+Enquanto não for digitado o número 11 será contabilizado em uma lista, quando
+digitado o número 11 exiba os produtos adquiridos e o total dessa compra.
+h) Crie um vetor que peça cinco números, em seguida exiba os cinco números
+informados e mostre qual é o menor número e o maior número.
+i) Desenvolva um sistema para gerenciar cursos, as funcionalidades pedidas são:
+1) Cadastrar curso - Pede o nome do novo curso
+2) Selecionar cursos - Exibe todos os cursos
+3) Remover curso - Pede o nome do curso e realiza a exclusão
+4) Sair do sistema - Finaliza o laço

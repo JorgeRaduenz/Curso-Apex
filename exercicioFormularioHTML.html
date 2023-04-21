@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario</title>
+  <script>
+      //1 - Criar um formulário para cadastro de alunos. Nesse formulário o aluno deve informar:
+      //Nome;
+      //RG;
+      //CPF;
+      //Data de nascimento;
+      //Nome do pai;
+      //Nome da mãe;
+      //Endereço (Pais, estado, cidade, bairro, logradouro, número e CEP);
+      //Curso que deseja (Front-end, C#, Java ou Python);
+      //Instibuição que deseja cursar (Apex - Blumenau, Apex - Gaspar, Apex - Pomerode)
+  </script>
+</head>
+
+<body>
+  <h3>Cadastro de Matricula</h3>
+  <form action="salvar" method="post">
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <input type="hidden" name="codigo" /><br />
+      <label>Nome</label> <input type="text"> <label>CPF</label> <input type="text"><br>
+
+      <label>Data de Nascimento</label> <input type="date"> <label>RG</label> <input type="text"><br>
+
+      <label>Nome do Pai</label> <input type="text"> <label>Nome da Mãe</label> <input type="text"><br>
+      <label>Email</label><input type="email"><br>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Endereço</legend>
+      <label>Pais</label><input type="text"> <label>Estado</label><input type="text"><br>
+      <label>Cidade</label><input type="text"><label>Bairro</label><input type="text"><label>Numero</label><input
+        type="number"><br>
+      <label>Logradouro</label><input type="text"><label>CEP</label><input type="text"><br>
+
+    </fieldset>
+    <fieldset>
+      <legend>Curso Desejado</legend>
+      <label> <input type="checkbox">Front-end><br>
+        <label><input type="checkbox">C#</label><br>
+        <label><input type="checkbox">Java</label><br>
+        <label><input type="checkbox">Python</label><br>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Instituição de Ensino</legend>
+      <label> <input type="radio" name="Apex - Blumenau">Apex - Blumenau</label><br>
+      <label><input type="radio" name="Apex - Blumenau">Apex - Gaspar</label><br>
+      <label><input type="radio" name="Apex - Blumenau">Apex - Pomerode</label><br>
+
+    </fieldset>
+
+  </form>
+</body>
+
+</html>

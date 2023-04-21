@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuquinhasCss</title>
+</head>
+<style>
+    form {
+        height: 800px;
+        width: 600px;
+        background-color: whitesmoke;
+        margin: 0px 50%;
+        border: 5px ridge black;
+    }
+
+    body {
+        height: 1200px;
+        width: 1000px;
+
+    }
+
+    div {
+        padding-left: 17%;
+        padding-top: 13%;
+    }
+
+    .label {
+        font-size: 20px;
+    }
+
+    .input:hover {
+        box-shadow: inset 0px 0px 10px 10px gray;
+
+    }
+</style>
+
+<body>
+    <form>
+        <div class="container">
+            <div>
+                <label class="label">Nome:</label><Br>
+                <input class="input" type="text" name="nome" size="35" maxlength="40" />
+            </div>
+            <div>
+                <label class="label">Data de Nascimento:</label><br>
+                <input class="input" type="date" name="data" id="datanasc" size="40" />
+            </div>
+            <div>
+                <label class="label">Descrição:</label><br>
+                <textarea class="input" name="descricao" id="descricao" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

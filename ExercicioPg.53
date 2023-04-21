@@ -1,0 +1,24 @@
+a) Crie um formulário, onde o usuário irá informar dois valores e uma operação
+de soma, subtração, multiplicação ou divisão.
+Haverá as seguintes funções:
+1) Ação - Responsável por obter os dados informados, selecionar um cálculo e exibir
+2) Soma - Haverá dois parâmetros que retornará a soma dos valores
+3) Subtração - Haverá dois parâmetros que retornará a subtração dos valores
+4) Multiplicação - Haverá dois parâmetros que retornará a multiplicação dos valores
+5) Divisão - Haverá dois parâmetros que retornará a divisão dos valores
+b) Criar uma agenda para manipular os dados: nome, e-mail, idade e cidade,
+essa agenda terá opções para cadastrar, alterar, selecionar e excluir
+contatos. Cada ação da agenda deverá estar em uma função.
+c) Implemente um sistema para cadastrar produtos contendo os seguintes
+dados: nome do produto, marca, valor, quantidade em estoque. As
+funcionalidades que esse sistema deverá ter são:
+● Cadastrar produtos
+● Selecionar produtos
+● Alterar produtos
+● Excluir produtos
+● Pesquisar produtos através do nome
+Algumas regras para esse sistema:
+● Não pode haver produtos com o mesmo nome
+● Não poderão ser cadastrados com valor zero ou negativos
+● Quando cadastrado um produto, a quantidade em estoque precisa ser
+de pelo menos um.

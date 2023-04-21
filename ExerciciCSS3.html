@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExercicioCSS3</title>
+    <!-- Criar interface para cadastro de usuário (Nome, data de nascimento e descrição pessoal). O formulario deve ter um tamanho fixo de 600x800. 
+    Esse formulário deve estar centralizado na tela e deve ter uma cor de sua preferencia. 
+    Todos os campos devem ser separados por padding e devem apresentar uma sombra ao mover o cursor do mouse sobre eles. -->
+    <style>
+        form {
+            height: 600px;
+            width: 600px;
+            background-color: whitesmoke;
+            margin: 0px 50%;
+            border: 2px ridge black;
+            border-radius: 10px;
+        }
+
+        body {
+            height: 1200px;
+            width: 600px;
+        }
+
+        .dados {
+            padding-top: 10px;
+            padding-left: 200px;
+            padding-right: 100px;
+            padding-bottom: 10px;
+
+        }
+
+        .descricao {
+            padding-top: 10px;
+            padding-left: 200px;
+            padding-right: 100px;
+            padding-bottom: 10px;
+        }
+
+        input:hover {
+            box-shadow: 5px 5px 15px green
+        }
+
+        textarea:hover {
+            box-shadow: 5px 5px 15px Red
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <div class="dados">
+            <input type="text" name="nome" id="nome">
+
+            <input type="date" name="dataNascimento" id="dataNascimento">
+        </div>
+
+        <div class="descricao">
+
+            <textarea name="descricao" id="descricao" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+</body>
+</body>
+
+</html>

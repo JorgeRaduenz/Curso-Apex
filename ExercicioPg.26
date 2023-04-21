@@ -1,0 +1,19 @@
+a) O que é uma variável?
+
+Variável são elementos criados pelo desenvolvedor para armazenar dados de maneira temporária. 
+
+b) Qual a finalidade de criarmos uma constante?
+
+Garantir a inalterabilidade dos valores criado pelo desenvolvedor.
+
+c) O que é uma operação modular?
+
+Operação de divição que informa o resto da divisão. 
+
+d) Explique e exemplifique o uso de uma concatenação.
+
+A concatenação é a união de informações, podendo ser variáveis, constantes ou palavras fixas. Podendo unir a informação como Bo-li-nha (bolinha) ou outras informações.
+
+e) Qual a finalidade de utilizar um operador relacional?
+
+Identificar de forma simples igualdade ou diferença da informação.
